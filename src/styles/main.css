@@ -82,3 +82,10 @@ h1 {
 
 
 }
+
+
+/* to prevent the page refreshing when scrolled down */
+html,
+body {
+    overscroll-behavior: none;
+}
