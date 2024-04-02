@@ -5,7 +5,7 @@ class Tile {
         this.y = position.y;
         this.value = value;
         this.previousPosition = null;
-        this.mergedFrom = null; // Tracks tiles that merged together
+        this.mergedFrom = null;
     }
 
     savePosition() {
