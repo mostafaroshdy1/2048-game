@@ -1,5 +1,3 @@
-import { Tile } from "./tile.js";
-
 class GameManager {
     constructor(size, InputManager, Actuator, ScoreManager) {
         this.size = size;

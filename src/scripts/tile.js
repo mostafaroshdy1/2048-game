@@ -1,4 +1,3 @@
-export { Tile };
 class Tile {
     constructor(position, value = 2) {
         this.x = position.x;
